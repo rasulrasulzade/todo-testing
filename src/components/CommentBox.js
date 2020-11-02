@@ -14,7 +14,7 @@ const CommentBox = () => {
     e.preventDefault();
 
     if (comment !== "") {
-      dispatch(saveComment(comment));
+      dispatch(saveComment({ text: comment }));
     }
 
     setComment("");
