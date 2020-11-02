@@ -5,6 +5,7 @@ import CommentList from "./CommentList";
 const App = () => {
   return (
     <div>
+      <h5>Welcome todo comment</h5>
       <CommentBox />
       <CommentList />
     </div>

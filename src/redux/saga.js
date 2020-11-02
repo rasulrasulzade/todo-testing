@@ -1,4 +1,3 @@
-import axios from "axios";
 import { call, put, all, takeLatest } from "redux-saga/effects";
 
 import { FETCH_ALL_COMMENTS_REQUESTED } from "./actionTypes";
